@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cham-chess/static/css/main.25336e28.css",
+    "main.js": "/cham-chess/static/js/main.23f8f28e.js",
+    "index.html": "/cham-chess/index.html",
+    "main.25336e28.css.map": "/cham-chess/static/css/main.25336e28.css.map",
+    "main.23f8f28e.js.map": "/cham-chess/static/js/main.23f8f28e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25336e28.css",
+    "static/js/main.23f8f28e.js"
+  ]
+}
