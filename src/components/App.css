@@ -1,0 +1,147 @@
+html,
+#root {
+    margin: 0;
+}
+
+body {
+    background-color: rgba(37, 35, 185, 0.308);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+nav {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgba(37, 35, 185, 0.3);
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+nav h1 {
+    margin: 10px 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    margin-top: 30px;
+    width: 1300px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.num-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: beige;
+    margin-right: 20px;
+    width: 50px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.letter-label {
+    display: flex;
+    width: 1200px;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: beige;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.board {
+    background-color: rgba(143, 106, 65);
+    /* margin: auto; */
+    height: 1200px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boardrow {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* border: solid 2px #eee; */
+}
+
+.board-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* border: solid 2px #eee; */
+}
+
+.board-cell:hover {
+    background-color: rgb(255, 255, 255, 0.5)
+}
+
+.board-cell img {
+    width: 90%;
+    margin: auto;
+}
+
+.board-cell img:hover {
+    width: 100%;
+    cursor: pointer;
+}
+
+.piece-div {
+    display: flex;
+    position: relative;
+    background-color: transparent;
+    border-radius: 100%;
+    width: 100%;
+}
+
+.clickedPiece {
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+.validMove {
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 100%;
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.validMove:hover {
+    cursor: pointer;
+    width: 55%;
+    height: 55%;
+}
+
+/* .boardrow .moves {
+    background-image: url(http://www.clker.com/cliparts/h/e/s/t/j/U/grey-circle.svg.hi.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+#row1 {
+    /* background-color: rgb(182, 128, 84); */
+}
+
+#row2 {
+    /* background-color: rgb(230, 181, 142); */
+}
+
+.dark {
+    background-color: rgb(182, 128, 84);
+}
+
+.light {
+    background-color: rgb(230, 181, 142);
+}
